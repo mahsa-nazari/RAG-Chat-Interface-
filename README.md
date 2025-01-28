@@ -40,7 +40,7 @@ This project uses **LangFlow** and **DataStax Astra DB** (vector database) to cr
 | ------------- | ------------------------------------------------------------------------- |
 | Coalin 10XR   | Narrowing of the pylorus (stomach outlet) due to scarring or inflammation.|
 
-- **RAG Data**: Patient records split across tables (`patients`, `conditions`, `visits`), with **only condition names vectorized**. The terminology in these database in standardized.  
+- **RAG Data**: Patient records split across tables (`patients`, `conditions`, `visits`), with **only condition names vectorized**. The terminologies in these databases are standard.  
 
 - The terms are intentionally random and meaningless to ensure results come solely from RAG, not LLM knowledge.
 
